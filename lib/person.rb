@@ -7,8 +7,9 @@ class Person
     :wrist_size, :glove_size, :pant_length, :pant_width
 
     def initialize(attributes)
-      attributes.each { |key, value| self.send("#{key}=", value) }
-      binding.pry
+      attributes.each { |key, value| self.send("#{key}=", value) 
+          binding.pry}
+
     end
 
 end
