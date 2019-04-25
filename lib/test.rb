@@ -1,3 +1,3 @@
 require_relative 'person'
 
-person = Person.new(age: 21, eye_color: "blue")
+person = Person.new(name: "Jimmers", eye_color: "blue")
